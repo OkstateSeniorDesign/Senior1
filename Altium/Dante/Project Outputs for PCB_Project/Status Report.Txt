@@ -1,0 +1,16 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [PCB_Project.PrjPcb]
+   Generated File[LEDCube_Copper_Signal_Top.gbr]
+   Generated File[LEDCube_Copper_Signal_Bot.gbr]
+   Generated File[LEDCube_Profile.gbr]
+   Generated File[LEDCube_PTH_Drill.gbr]
+   Generated File[LEDCube.RUL]
+   Generated File[LEDCube.EXTREP]
+   Generated File[LEDCube.REP]
+
+
+Files Generated   : 7
+Documents Printed : 0
+
+Finished Output Generation At 10:38:48 PM On 10/21/2015

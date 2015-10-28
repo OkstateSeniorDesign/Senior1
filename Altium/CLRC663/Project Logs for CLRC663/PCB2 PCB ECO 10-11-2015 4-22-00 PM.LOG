@@ -1,0 +1,37 @@
+Added Component: Designator=*(DFN220P355X80-4N)
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=C?(1608[0603])
+Added Component: Designator=P?(HDR2X3)
+Added Component: Designator=P?(HDR1X2)
+Added Component: Designator=U?(QFN50P500X500X100_HS-33N)
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=U?-7
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Pin To Net: NetName=Net*_1 Pin=C?-2
+Added Pin To Net: NetName=Net*_1 Pin=U?-20
+Added Net: Name=Net*_1
+Added Pin To Net: NetName=Net*_2 Pin=*-2
+Added Pin To Net: NetName=Net*_2 Pin=*-4
+Added Pin To Net: NetName=Net*_2 Pin=C?-1
+Added Pin To Net: NetName=Net*_2 Pin=C?-1
+Added Pin To Net: NetName=Net*_2 Pin=C?-1
+Added Pin To Net: NetName=Net*_2 Pin=C?-1
+Added Pin To Net: NetName=Net*_2 Pin=C?-1
+Added Pin To Net: NetName=Net*_2 Pin=C?-1
+Added Pin To Net: NetName=Net*_2 Pin=P?-2
+Added Net: Name=Net*_2
+Added Pin To Net: NetName=Net*_3 Pin=*-3
+Added Pin To Net: NetName=Net*_3 Pin=C?-2
+Added Pin To Net: NetName=Net*_3 Pin=U?-19
+Added Net: Name=Net*_3
+Added Pin To Net: NetName=PVDD Pin=C?-2
+Added Pin To Net: NetName=PVDD Pin=U?-25
+Added Net: Name=PVDD
+Added Pin To Net: NetName=VDD Pin=C?-2
+Added Pin To Net: NetName=VDD Pin=U?-8
+Added Net: Name=VDD
+Added Member To Class: ClassName=CLRC663Design Member=Component * 27.12Mhz
+Added Member To Class: ClassName=CLRC663Design Member=Component C? 1uF
+Added Member To Class: ClassName=CLRC663Design Member=Component P? Header 3X2
+Added Member To Class: ClassName=CLRC663Design Member=Component U? CLRC663
+Added Room: Name=CLRC663Design

@@ -1,0 +1,56 @@
+PCAD Importer Log
+Project : LIS302DL.LibPkg
+
+Section : N:\School Work\_College Fall 2015\Senior\Altium\LIS302DL\LIS302DL.lia
+    Section : PCB Library - LIS302DL.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token LIS302DL On Line 91
+            Warning - 1 : Skipping Token attachedSymbol On Line 249
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [LGA14][Primary] associated with PCAD Component [LIS302DL] has been renamed to PCB FootPrint [LGA14_LIS302DL(Primary)].
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+        EndSection
+    EndSection
+
+    Section : SCH Library - LIS302DL.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 60
+            Warning - 1 : Skipping Token layerContents On Line 76
+            Warning - 1 : Skipping Token layerContents On Line 82
+        EndSection
+
+        Section : Generating SCH Library - LIS302DL.SchLib
+            Warning - 0 : PCAD Pattern Graphics [LGA14][Primary] associated with PCAD Component [LIS302DL] has been renamed to PCB FootPrint [LGA14_LIS302DL(Primary)].
+        EndSection
+    EndSection
+EndSection

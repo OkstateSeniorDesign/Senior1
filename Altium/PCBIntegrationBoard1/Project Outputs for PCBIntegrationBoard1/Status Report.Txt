@@ -1,0 +1,15 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [PCBIntegrationBoard1.PrjPcb]
+   Generated File[Master_Copper_Signal_Top.gbr]
+   Generated File[Master_Copper_Signal_Bot.gbr]
+   Generated File[Master_PTH_Drill.gbr]
+   Generated File[Master.RUL]
+   Generated File[Master.EXTREP]
+   Generated File[Master.REP]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 3:11:20 AM On 10/22/2015

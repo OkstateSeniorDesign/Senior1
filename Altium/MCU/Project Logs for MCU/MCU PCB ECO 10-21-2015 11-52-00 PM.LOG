@@ -1,0 +1,110 @@
+Removed Member From Class: ClassName=MCU Member=P1
+Removed Member From Class: ClassName=MCU Member=P2
+Removed Member From Class: ClassName=MCU Member=P3
+Removed Member From Class: ClassName=MCU Member=P4
+Removed Member From Class: ClassName=MCU Member=P5
+Removed Member From Class: ClassName=MCU Member=P6
+Removed Member From Class: ClassName=MCU Member=P7
+Removed Member From Class: ClassName=MCU Member=P8
+Removed Member From Class: ClassName=MCU Member=P9
+Removed Member From Class: ClassName=MCU Member=P10
+Removed Member From Class: ClassName=MCU Member=P11
+Removed Member From Class: ClassName=MCU Member=P12
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Component: Designator=P?(HDR1X20)
+Added Pin To Net: NetName=NetP?_1 Pin=P?-1
+Added Pin To Net: NetName=NetP?_1 Pin=P?-1
+Added Pin To Net: NetName=NetP?_1 Pin=P?-1
+Added Net: Name=NetP?_1
+Added Pin To Net: NetName=NetP?_2 Pin=P?-2
+Added Pin To Net: NetName=NetP?_2 Pin=P?-2
+Added Pin To Net: NetName=NetP?_2 Pin=P?-2
+Added Net: Name=NetP?_2
+Added Pin To Net: NetName=NetP?_3 Pin=P?-3
+Added Pin To Net: NetName=NetP?_3 Pin=P?-3
+Added Pin To Net: NetName=NetP?_3 Pin=P?-3
+Added Net: Name=NetP?_3
+Added Pin To Net: NetName=NetP?_4 Pin=P?-4
+Added Pin To Net: NetName=NetP?_4 Pin=P?-4
+Added Pin To Net: NetName=NetP?_4 Pin=P?-4
+Added Net: Name=NetP?_4
+Added Pin To Net: NetName=NetP?_5 Pin=P?-5
+Added Pin To Net: NetName=NetP?_5 Pin=P?-5
+Added Pin To Net: NetName=NetP?_5 Pin=P?-5
+Added Net: Name=NetP?_5
+Added Pin To Net: NetName=NetP?_6 Pin=P?-6
+Added Pin To Net: NetName=NetP?_6 Pin=P?-6
+Added Pin To Net: NetName=NetP?_6 Pin=P?-6
+Added Net: Name=NetP?_6
+Added Pin To Net: NetName=NetP?_7 Pin=P?-7
+Added Pin To Net: NetName=NetP?_7 Pin=P?-7
+Added Pin To Net: NetName=NetP?_7 Pin=P?-7
+Added Net: Name=NetP?_7
+Added Pin To Net: NetName=NetP?_8 Pin=P?-8
+Added Pin To Net: NetName=NetP?_8 Pin=P?-8
+Added Pin To Net: NetName=NetP?_8 Pin=P?-8
+Added Net: Name=NetP?_8
+Added Pin To Net: NetName=NetP?_9 Pin=P?-9
+Added Pin To Net: NetName=NetP?_9 Pin=P?-9
+Added Pin To Net: NetName=NetP?_9 Pin=P?-9
+Added Net: Name=NetP?_9
+Added Pin To Net: NetName=NetP?_10 Pin=P?-10
+Added Pin To Net: NetName=NetP?_10 Pin=P?-10
+Added Pin To Net: NetName=NetP?_10 Pin=P?-10
+Added Pin To Net: NetName=NetP?_10 Pin=U?-30
+Added Net: Name=NetP?_10
+Added Pin To Net: NetName=NetP?_11 Pin=P?-11
+Added Pin To Net: NetName=NetP?_11 Pin=P?-11
+Added Pin To Net: NetName=NetP?_11 Pin=P?-11
+Added Pin To Net: NetName=NetP?_11 Pin=U?-11
+Added Net: Name=NetP?_11
+Added Pin To Net: NetName=NetP?_12 Pin=P?-12
+Added Pin To Net: NetName=NetP?_12 Pin=P?-12
+Added Pin To Net: NetName=NetP?_12 Pin=P?-12
+Added Net: Name=NetP?_12
+Added Pin To Net: NetName=NetP?_13 Pin=P?-13
+Added Pin To Net: NetName=NetP?_13 Pin=P?-13
+Added Pin To Net: NetName=NetP?_13 Pin=P?-13
+Added Net: Name=NetP?_13
+Added Pin To Net: NetName=NetP?_14 Pin=P?-14
+Added Pin To Net: NetName=NetP?_14 Pin=P?-14
+Added Pin To Net: NetName=NetP?_14 Pin=P?-14
+Added Net: Name=NetP?_14
+Added Pin To Net: NetName=NetP?_15 Pin=P?-15
+Added Pin To Net: NetName=NetP?_15 Pin=P?-15
+Added Pin To Net: NetName=NetP?_15 Pin=P?-15
+Added Pin To Net: NetName=NetP?_15 Pin=P?-16
+Added Pin To Net: NetName=NetP?_15 Pin=P?-16
+Added Pin To Net: NetName=NetP?_15 Pin=P?-16
+Added Net: Name=NetP?_15
+Added Pin To Net: NetName=NetP?_16 Pin=P?-16
+Added Pin To Net: NetName=NetP?_16 Pin=P?-16
+Added Pin To Net: NetName=NetP?_16 Pin=P?-16
+Added Net: Name=NetP?_16
+Added Pin To Net: NetName=NetP?_17 Pin=P?-17
+Added Pin To Net: NetName=NetP?_17 Pin=P?-17
+Added Pin To Net: NetName=NetP?_17 Pin=P?-17
+Added Net: Name=NetP?_17
+Added Pin To Net: NetName=NetP?_18 Pin=P?-18
+Added Pin To Net: NetName=NetP?_18 Pin=P?-18
+Added Pin To Net: NetName=NetP?_18 Pin=P?-18
+Added Net: Name=NetP?_18
+Added Pin To Net: NetName=NetP?_19 Pin=P?-19
+Added Pin To Net: NetName=NetP?_19 Pin=P?-19
+Added Pin To Net: NetName=NetP?_19 Pin=P?-19
+Added Net: Name=NetP?_19
+Added Pin To Net: NetName=NetP?_20 Pin=P?-20
+Added Pin To Net: NetName=NetP?_20 Pin=P?-20
+Added Pin To Net: NetName=NetP?_20 Pin=P?-20
+Added Net: Name=NetP?_20
+Added Member To Class: ClassName=MCU Member=Component P? Header 20

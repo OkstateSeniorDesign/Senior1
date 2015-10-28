@@ -1,0 +1,127 @@
+PCAD Importer Log
+Project : HVQFN32-5X5_3MMTHERMAL.LibPkg
+
+Section : N:\School Work\_College Fall 2015\Senior\Altium\LIS302DL\HVQFN32-5X5_3MMTHERMAL.lia
+    Section : PCB Library - HVQFN32-5X5_3MMTHERMAL.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token poly On Line 123
+            Warning - 1 : Skipping Token poly On Line 129
+            Warning - 1 : Skipping Token poly On Line 135
+            Warning - 1 : Skipping Token poly On Line 141
+            Warning - 1 : Skipping Token poly On Line 147
+            Warning - 1 : Skipping Token poly On Line 153
+            Warning - 1 : Skipping Token poly On Line 159
+            Warning - 1 : Skipping Token poly On Line 165
+            Warning - 1 : Skipping Token poly On Line 171
+            Warning - 1 : Skipping Token poly On Line 177
+            Warning - 1 : Skipping Token poly On Line 183
+            Warning - 1 : Skipping Token poly On Line 189
+            Warning - 1 : Skipping Token poly On Line 197
+            Warning - 1 : Skipping Token poly On Line 203
+            Warning - 1 : Skipping Token poly On Line 209
+            Warning - 1 : Skipping Token poly On Line 215
+            Warning - 1 : Skipping Token poly On Line 221
+            Warning - 1 : Skipping Token poly On Line 227
+            Warning - 1 : Skipping Token poly On Line 233
+            Warning - 1 : Skipping Token poly On Line 239
+            Warning - 1 : Skipping Token poly On Line 245
+            Warning - 1 : Skipping Token poly On Line 251
+            Warning - 1 : Skipping Token poly On Line 257
+            Warning - 1 : Skipping Token poly On Line 263
+            Warning - 1 : Skipping Token poly On Line 324
+            Warning - 1 : Skipping Token poly On Line 330
+            Warning - 1 : Skipping Token poly On Line 336
+            Warning - 1 : Skipping Token poly On Line 342
+            Warning - 1 : Skipping Token poly On Line 348
+            Warning - 1 : Skipping Token poly On Line 354
+            Warning - 1 : Skipping Token poly On Line 360
+            Warning - 1 : Skipping Token poly On Line 366
+            Warning - 1 : Skipping Token poly On Line 372
+            Warning - 1 : Skipping Token poly On Line 378
+            Warning - 1 : Skipping Token poly On Line 384
+            Warning - 1 : Skipping Token poly On Line 390
+            Warning - 1 : Skipping Token poly On Line 396
+            Warning - 1 : Skipping Token poly On Line 402
+            Warning - 1 : Skipping Token poly On Line 408
+            Warning - 1 : Skipping Token poly On Line 414
+            Warning - 1 : Skipping Token poly On Line 420
+            Warning - 1 : Skipping Token poly On Line 426
+            Warning - 1 : Skipping Token poly On Line 432
+            Warning - 1 : Skipping Token poly On Line 438
+            Warning - 1 : Skipping Token poly On Line 444
+            Warning - 1 : Skipping Token poly On Line 450
+            Warning - 1 : Skipping Token poly On Line 456
+            Warning - 1 : Skipping Token poly On Line 462
+            Warning - 1 : Skipping Token poly On Line 468
+            Warning - 1 : Skipping Token poly On Line 474
+            Warning - 1 : Skipping Token poly On Line 480
+            Warning - 1 : Skipping Token poly On Line 486
+            Warning - 1 : Skipping Token poly On Line 492
+            Warning - 1 : Skipping Token poly On Line 498
+            Warning - 1 : Skipping Token poly On Line 504
+            Warning - 1 : Skipping Token poly On Line 510
+            Warning - 1 : Skipping Token poly On Line 516
+            Warning - 1 : Skipping Token poly On Line 522
+        EndSection
+
+        Section : Import Messages
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+            Warning : Rectangle solder shape converted to solid region
+        EndSection
+    EndSection
+EndSection

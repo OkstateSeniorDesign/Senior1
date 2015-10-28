@@ -1,0 +1,56 @@
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Added Component: Designator=P13(HDR2X3)
+Added Component: Designator=P14(HDR2X3)
+Added Component: Designator=P15(HDR2X3)
+Added Component: Designator=P16(HDR1X6)
+Added Component: Designator=P17(HDR2X3)
+Added Component: Designator=P18(HDR2X3)
+Added Component: Designator=P19(HDR2X3)
+Added Component: Designator=P20(HDR1X3)
+Added Pin To Net: NetName=NetP13_1 Pin=P13-1
+Added Pin To Net: NetName=NetP13_1 Pin=P14-1
+Added Pin To Net: NetName=NetP13_1 Pin=P15-1
+Added Pin To Net: NetName=NetP13_1 Pin=P17-1
+Added Pin To Net: NetName=NetP13_1 Pin=P18-1
+Added Pin To Net: NetName=NetP13_1 Pin=P19-1
+Added Pin To Net: NetName=NetP13_1 Pin=P20-1
+Added Net: Name=NetP13_1
+Added Pin To Net: NetName=NetP13_3 Pin=P13-3
+Added Pin To Net: NetName=NetP13_3 Pin=P14-3
+Added Pin To Net: NetName=NetP13_3 Pin=P15-3
+Added Pin To Net: NetName=NetP13_3 Pin=P17-3
+Added Pin To Net: NetName=NetP13_3 Pin=P18-3
+Added Pin To Net: NetName=NetP13_3 Pin=P19-3
+Added Pin To Net: NetName=NetP13_3 Pin=P20-3
+Added Net: Name=NetP13_3
+Added Pin To Net: NetName=NetP13_4 Pin=P13-4
+Added Pin To Net: NetName=NetP13_4 Pin=P14-4
+Added Pin To Net: NetName=NetP13_4 Pin=P15-4
+Added Pin To Net: NetName=NetP13_4 Pin=P17-4
+Added Pin To Net: NetName=NetP13_4 Pin=P18-4
+Added Pin To Net: NetName=NetP13_4 Pin=P19-4
+Added Pin To Net: NetName=NetP13_4 Pin=P20-2
+Added Net: Name=NetP13_4
+Added Pin To Net: NetName=NetP13_5 Pin=P13-5
+Added Pin To Net: NetName=NetP13_5 Pin=P16-1
+Added Net: Name=NetP13_5
+Added Pin To Net: NetName=NetP14_5 Pin=P14-5
+Added Pin To Net: NetName=NetP14_5 Pin=P16-2
+Added Net: Name=NetP14_5
+Added Pin To Net: NetName=NetP15_5 Pin=P15-5
+Added Pin To Net: NetName=NetP15_5 Pin=P16-3
+Added Net: Name=NetP15_5
+Added Pin To Net: NetName=NetP16_5 Pin=P16-5
+Added Pin To Net: NetName=NetP16_5 Pin=P18-5
+Added Net: Name=NetP16_5
+Added Pin To Net: NetName=NetP16_6 Pin=P16-6
+Added Pin To Net: NetName=NetP16_6 Pin=P19-5
+Added Net: Name=NetP16_6
+Added Member To Class: ClassName=MCU Member=Component P13 Header 3X2
+Added Member To Class: ClassName=MCU Member=Component P14 Header 3X2
+Added Member To Class: ClassName=MCU Member=Component P15 Header 3X2
+Added Member To Class: ClassName=MCU Member=Component P16 Header 6
+Added Member To Class: ClassName=MCU Member=Component P17 Header 3X2
+Added Member To Class: ClassName=MCU Member=Component P18 Header 3X2
+Added Member To Class: ClassName=MCU Member=Component P19 Header 3X2
+Added Member To Class: ClassName=MCU Member=Component P20 Header 3

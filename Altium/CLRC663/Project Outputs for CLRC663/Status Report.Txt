@@ -1,0 +1,16 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [CLRC663.PrjPcb]
+   Generated File[CLRC663DesignPCB_Copper_Signal_Top.gbr]
+   Generated File[CLRC663DesignPCB_Copper_Signal_Bot.gbr]
+   Generated File[CLRC663DesignPCB_Profile.gbr]
+   Generated File[CLRC663DesignPCB_PTH_Drill.gbr]
+   Generated File[CLRC663DesignPCB.RUL]
+   Generated File[CLRC663DesignPCB.EXTREP]
+   Generated File[CLRC663DesignPCB.REP]
+
+
+Files Generated   : 7
+Documents Printed : 0
+
+Finished Output Generation At 12:03:34 AM On 10/16/2015

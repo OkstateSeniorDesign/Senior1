@@ -1,0 +1,15 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [LEDMATRIX.PrjPcb]
+   Generated File[Senior design LED matrix 3.0_Copper_Signal_Top.gbr]
+   Generated File[Senior design LED matrix 3.0_Copper_Signal_Bot.gbr]
+   Generated File[Senior design LED matrix 3.0_PTH_Drill.gbr]
+   Generated File[Senior design LED matrix 3.0.RUL]
+   Generated File[Senior design LED matrix 3.0.EXTREP]
+   Generated File[Senior design LED matrix 3.0.REP]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 2:15:55 AM On 10/22/2015

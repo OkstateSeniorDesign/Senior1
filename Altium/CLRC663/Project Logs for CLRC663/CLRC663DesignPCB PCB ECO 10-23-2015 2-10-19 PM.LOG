@@ -1,0 +1,34 @@
+Added Component: Designator=U?(QFN50P500X500X100_HS-33N)
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=GND Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-4
+Added Pin To Net: NetName=NetT5_1 Pin=U?-5
+Added Pin To Net: NetName=NetT6_1 Pin=U?-6
+Added Pin To Net: NetName=NetC19_1 Pin=U?-7
+Added Pin To Net: NetName=VDD Pin=U?-8
+Added Pin To Net: NetName=NetC16_1 Pin=U?-9
+Added Pin To Net: NetName=NetT7_1 Pin=U?-10
+Added Pin To Net: NetName=NetT8_1 Pin=U?-11
+Added Pin To Net: NetName=NetC6_2 Pin=U?-12
+Added Pin To Net: NetName=NetC15_2 Pin=U?-13
+Added Pin To Net: NetName=NetC5_1 Pin=U?-14
+Added Pin To Net: NetName=NetL3_1 Pin=U?-15
+Added Pin To Net: NetName=GND Pin=U?-16
+Added Pin To Net: NetName=NetL2_1 Pin=U?-17
+Added Pin To Net: NetName=NetC3_1 Pin=U?-18
+Added Pin To Net: NetName=Net*_3 Pin=U?-19
+Added Pin To Net: NetName=Net*_1 Pin=U?-20
+Added Pin To Net: NetName=NetR11_1 Pin=U?-21
+Added Pin To Net: NetName=NetT11_1 Pin=U?-22
+Added Pin To Net: NetName=NetT9_1 Pin=U?-23
+Added Pin To Net: NetName=NetT10_1 Pin=U?-24
+Added Pin To Net: NetName=PVDD Pin=U?-25
+Added Pin To Net: NetName=GND Pin=U?-26
+Added Pin To Net: NetName=NetR11_1 Pin=U?-27
+Added Pin To Net: NetName=RX_MOSI_A1 Pin=U?-28
+Added Pin To Net: NetName=SCK_SCL Pin=U?-29
+Added Pin To Net: NetName=TX_MISO_A2 Pin=U?-30
+Added Pin To Net: NetName=NetP1_5 Pin=U?-31
+Added Pin To Net: NetName=NetP3_1 Pin=U?-32
+Added Pin To Net: NetName=GND Pin=U?-33
+Added Member To Class: ClassName=CLRC663Design Member=Component U? CLRC663
