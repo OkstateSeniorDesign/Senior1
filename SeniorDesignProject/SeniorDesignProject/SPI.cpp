@@ -64,7 +64,7 @@ uint8_t SPI::sendSPI(uint8_t data){
 	
 	// wait for receiver ready
 	while ((UCSR1A & 1<< (RXC1)) == 0)
-	{}
+	{};
 	
 	// receive byte, return it
 	return UDR1;
@@ -78,6 +78,7 @@ uint8_t SPI::sendLSBSPI(uint8_t data){
 }
 //Sets the slave
 void SPI::pickASlave(SLAVE s){
+	while ((UCSR1A & 1<< (UDRE1)) == 0)	{};//Wait until last data was finished
 	PORTC=s;
 	
 }

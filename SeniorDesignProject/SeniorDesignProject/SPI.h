@@ -34,8 +34,8 @@ enum SLAVE :uint8_t
 	audioNext=					 0b10111111,
 	audioReset=					 0b11011111,
 	strikeDetector =			 0b11111111,
-	nfcDev  =					 0b11111011,
-	hitIndicatorMatrix =		 0b11111111,
+	nfcDev  =					 0b11110111,
+	hitIndicatorMatrix =		 0b11111011,
 	weaponIndicatorMatrix =		 0b11111110,
 	none =						 0b11111111,
 

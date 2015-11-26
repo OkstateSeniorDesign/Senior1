@@ -102,7 +102,7 @@ int main(void)
 	debugUART<<"Welcome"<<endl;
 	weaponMatrix.initMatrix(spi);
 	
-	playFlames();
+	//playFlames();
 	
 	debugUART.initUART0();
 	debugUART<<"About to INIT weaponMatrix"<<endl;
@@ -160,14 +160,14 @@ int main(void)
 						timer0.sendMIRPS(20,true);
    while(1){
 	  if(accel){ 
-		if((posCounter%8)==3||(posCounter%8)==4){
+		if(hitMatrix.wasGoodHit()){
 			timer0.sendMIRPS(20,true);
 			spi.bitBangAudioSender(true);
 		}else{
 			timer0.sendMIRPS(20,false);
 			spi.bitBangAudioSender(false);
 			}
-		data=!data;
+		
 		accel=false;
 		}
 		
@@ -183,25 +183,14 @@ ISR(TIMER0_COMPA_vect){
 	//hitMatrix.outputMatrix();
 	//debugUART<<"MIRPSISR"<<endl;
 }
-
+uint8_t hitCounter=0;
 ISR(TIMER1_OVF_vect)
 {
 	weaponMatrix.writeToMatrix();
 	weaponMatrix.incStartingLocation();
-	
+	hitMatrix.outputMatrix();
 	hitMatrix.moveBar();
-		spi.pickASlave(hitIndicatorMatrix);
-		spi.sendSPI(((posCounter%8)>4||(posCounter%8)<3)?0b00000000:0b11111111);
-		spi.sendSPI(((posCounter%8)>4||(posCounter%8)<3)?0b11111111:0b00000000);
-		spi.sendSPI(~(1<<(posCounter%8)));
-		spi.pickASlave(none);
 	
-	if(otherOtherCounter==0){
-		otherCounter++;
-		if((otherCounter&0x04)>0)
-		posCounter++;
-	}else
-		otherOtherCounter--;
 }
 
 ISR (INT2_vect)

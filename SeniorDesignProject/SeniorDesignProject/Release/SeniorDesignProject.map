@@ -9,7 +9,7 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_ctors.o)
                               main.o (__do_global_ctors)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_prologue.o)
-                              NFC.o (__prologue_saves__)
+                              HitMatrix.o (__prologue_saves__)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_epilogue.o)
                               NFC.o (__epilogue_restores__)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
@@ -25,7 +25,7 @@ Discarded input sections
  .data          0x00000000        0x0 HitMatrix.o
  .bss           0x00000000        0x0 HitMatrix.o
  .text._ZN9HitMatrix13testHitMatrixEv
-                0x00000000       0x70 HitMatrix.o
+                0x00000000      0x108 HitMatrix.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
@@ -35,9 +35,18 @@ Discarded input sections
                 0x00000000       0x3a main.o
  .text._Z18lookUpYourMomsItemm
                 0x00000000       0x16 main.o
+ .text._Z10playFlamesv
+                0x00000000       0x86 main.o
  .text._Z10initTimer2v
                 0x00000000        0x2 main.o
  .bss.uartData  0x00000000        0x1 main.o
+ .bss.hitCounter
+                0x00000000        0x1 main.o
+ .data.data     0x00000000        0x1 main.o
+ .bss.otherCounter
+                0x00000000        0x1 main.o
+ .bss.posCounter
+                0x00000000        0x1 main.o
  .data.weaponName
                 0x00000000        0x2 main.o
  .text          0x00000000        0x0 NFC.o
@@ -348,7 +357,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xec8
+.text           0x00000000      0xe80
  *(.vectors)
  .vectors       0x00000000       0x8c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.90/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
                 0x00000000                __vector_default
@@ -442,92 +451,89 @@ END GROUP
                 0x000000de                . = ALIGN (0x2)
  *(.text.*)
  .text._ZN9HitMatrixC2Ev
-                0x000000de       0x18 HitMatrix.o
+                0x000000de       0x1e HitMatrix.o
                 0x000000de                _ZN9HitMatrixC1Ev
                 0x000000de                _ZN9HitMatrixC2Ev
- .text._Z10playFlamesv
-                0x000000f6       0x82 main.o
-                0x000000f6                _Z10playFlamesv
  .text.startup.main
-                0x00000178      0x2f0 main.o
-                0x00000178                main
+                0x000000fc      0x2da main.o
+                0x000000fc                main
  .text.__vector_16
-                0x00000468      0x120 main.o
-                0x00000468                __vector_16
+                0x000003d6      0x120 main.o
+                0x000003d6                __vector_16
  .text.__vector_15
-                0x00000588      0x152 main.o
-                0x00000588                __vector_15
+                0x000004f6      0x14c main.o
+                0x000004f6                __vector_15
  .text.__vector_3
-                0x000006da       0xcc main.o
-                0x000006da                __vector_3
+                0x00000642       0xcc main.o
+                0x00000642                __vector_3
  .text.__vector_20
-                0x000007a6       0x72 main.o
-                0x000007a6                __vector_20
+                0x0000070e       0x72 main.o
+                0x0000070e                __vector_20
  .text.startup._GLOBAL__sub_I_debugUART
-                0x00000818       0x24 main.o
+                0x00000780       0x24 main.o
  .text._ZN3NFCC2Ev
-                0x0000083c        0x4 NFC.o
-                0x0000083c                _ZN3NFCC2Ev
-                0x0000083c                _ZN3NFCC1Ev
+                0x000007a4        0x4 NFC.o
+                0x000007a4                _ZN3NFCC2Ev
+                0x000007a4                _ZN3NFCC1Ev
  .text._ZN3SPIC2Ev
-                0x00000840       0x26 SPI.o
-                0x00000840                _ZN3SPIC2Ev
-                0x00000840                _ZN3SPIC1Ev
+                0x000007a8       0x26 SPI.o
+                0x000007a8                _ZN3SPIC2Ev
+                0x000007a8                _ZN3SPIC1Ev
  .text._ZN3SPI18bitBangAudioSenderEb
-                0x00000866       0x8c SPI.o
-                0x00000866                _ZN3SPI18bitBangAudioSenderEb
+                0x000007ce       0xd4 SPI.o
+                0x000007ce                _ZN3SPI18bitBangAudioSenderEb
  .text._ZN3SPI7sendSPIEh
-                0x000008f2       0x1a SPI.o
-                0x000008f2                _ZN3SPI7sendSPIEh
+                0x000008a2       0x1a SPI.o
+                0x000008a2                _ZN3SPI7sendSPIEh
  .text._ZN3SPI10pickASlaveE5SLAVE
-                0x0000090c        0x4 SPI.o
-                0x0000090c                _ZN3SPI10pickASlaveE5SLAVE
+                0x000008bc        0xc SPI.o
+                0x000008bc                _ZN3SPI10pickASlaveE5SLAVE
  .text._ZN6Timer1C2Ev
-                0x00000910       0x20 Timer1.o
-                0x00000910                _ZN6Timer1C1Ev
-                0x00000910                _ZN6Timer1C2Ev
+                0x000008c8       0x20 Timer1.o
+                0x000008c8                _ZN6Timer1C1Ev
+                0x000008c8                _ZN6Timer1C2Ev
  .text._ZN6Timer110initTimer1Ev
-                0x00000930       0x20 Timer1.o
-                0x00000930                _ZN6Timer110initTimer1Ev
+                0x000008e8       0x20 Timer1.o
+                0x000008e8                _ZN6Timer110initTimer1Ev
  .text._ZN4UARTC2Ev
-                0x00000950        0x2 UART.o
-                0x00000950                _ZN4UARTC1Ev
-                0x00000950                _ZN4UARTC2Ev
+                0x00000908        0x2 UART.o
+                0x00000908                _ZN4UARTC1Ev
+                0x00000908                _ZN4UARTC2Ev
  .text._ZN4UART9initUART0Ev
-                0x00000952       0x2a UART.o
-                0x00000952                _ZN4UART9initUART0Ev
+                0x0000090a       0x2a UART.o
+                0x0000090a                _ZN4UART9initUART0Ev
  .text._ZN4UART7putByteEh
-                0x0000097c        0xe UART.o
-                0x0000097c                _ZN4UART7putByteEh
+                0x00000934        0xe UART.o
+                0x00000934                _ZN4UART7putByteEh
  .text._ZN12WeaponMatrixC2Ev
-                0x0000098a       0x3a WeaponMatrix.o
-                0x0000098a                _ZN12WeaponMatrixC1Ev
-                0x0000098a                _ZN12WeaponMatrixC2Ev
+                0x00000942       0x3a WeaponMatrix.o
+                0x00000942                _ZN12WeaponMatrixC1Ev
+                0x00000942                _ZN12WeaponMatrixC2Ev
  .text._ZN12WeaponMatrix10initMatrixE3SPI
-                0x000009c4      0x130 WeaponMatrix.o
-                0x000009c4                _ZN12WeaponMatrix10initMatrixE3SPI
+                0x0000097c      0x130 WeaponMatrix.o
+                0x0000097c                _ZN12WeaponMatrix10initMatrixE3SPI
  .text._ZN12WeaponMatrix19incStartingLocationEv
-                0x00000af4       0x38 WeaponMatrix.o
-                0x00000af4                _ZN12WeaponMatrix19incStartingLocationEv
+                0x00000aac       0x38 WeaponMatrix.o
+                0x00000aac                _ZN12WeaponMatrix19incStartingLocationEv
  .text._ZN12WeaponMatrix13writeToMatrixEv
-                0x00000b2c       0xca WeaponMatrix.o
-                0x00000b2c                _ZN12WeaponMatrix13writeToMatrixEv
+                0x00000ae4       0xca WeaponMatrix.o
+                0x00000ae4                _ZN12WeaponMatrix13writeToMatrixEv
  .text._ZN12WeaponMatrix9newStringEPc
-                0x00000bf6      0x24e WeaponMatrix.o
-                0x00000bf6                _ZN12WeaponMatrix9newStringEPc
+                0x00000bae      0x24e WeaponMatrix.o
+                0x00000bae                _ZN12WeaponMatrix9newStringEPc
  .text.libgcc.prologue
-                0x00000e44       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_prologue.o)
-                0x00000e44                __prologue_saves__
+                0x00000dfc       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_prologue.o)
+                0x00000dfc                __prologue_saves__
  .text.libgcc.prologue
-                0x00000e7c       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_epilogue.o)
-                0x00000e7c                __epilogue_restores__
- .text.libgcc   0x00000eb2       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
-                0x00000eb2                __tablejump2__
-                0x00000ec4                . = ALIGN (0x2)
+                0x00000e34       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_epilogue.o)
+                0x00000e34                __epilogue_restores__
+ .text.libgcc   0x00000e6a       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+                0x00000e6a                __tablejump2__
+                0x00000e7c                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000ec4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
-                0x00000ec4                _exit
-                0x00000ec4                exit
+ .fini9         0x00000e7c        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x00000e7c                _exit
+                0x00000e7c                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -546,29 +552,28 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000ec4        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .fini0         0x00000e7c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000ec8                _etext = .
+                0x00000e80                _etext = .
 
-.data           0x00800100      0x336 load address 0x00000ec8
+.data           0x00800100      0x336 load address 0x00000e80
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
- .data.data     0x00800100        0x1 main.o
-                0x00800100                data
- .data.timer0   0x00800101        0x7 main.o
-                0x00800101                timer0
+ .data.timer0   0x00800100        0x7 main.o
+                0x00800100                timer0
  *(.rodata)
- .rodata        0x00800108      0x299 WeaponMatrix.o
+ .rodata        0x00800107      0x299 WeaponMatrix.o
  *(.rodata*)
  .rodata.str1.1
-                0x008003a1       0x95 main.o
+                0x008003a0       0x95 main.o
  *(.gnu.linkonce.d*)
                 0x00800436                . = ALIGN (0x2)
+ *fill*         0x00800435        0x1 
                 0x00800436                _edata = .
                 0x00800436                PROVIDE (__data_end, .)
 
-.bss            0x00800436      0x343
+.bss            0x00800436      0x341
                 0x00800436                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
@@ -577,38 +582,32 @@ END GROUP
  .bss.otherOtherCounter
                 0x00800437        0x1 main.o
                 0x00800437                otherOtherCounter
- .bss.otherCounter
-                0x00800438        0x1 main.o
-                0x00800438                otherCounter
- .bss.posCounter
-                0x00800439        0x1 main.o
-                0x00800439                posCounter
  .bss.hitMatrix
-                0x0080043a        0x6 main.o
-                0x0080043a                hitMatrix
- .bss.nfc       0x00800440        0x1 main.o
-                0x00800440                nfc
+                0x00800438        0x6 main.o
+                0x00800438                hitMatrix
+ .bss.nfc       0x0080043e        0x1 main.o
+                0x0080043e                nfc
  .bss.weaponMatrix
-                0x00800441      0x335 main.o
-                0x00800441                weaponMatrix
- .bss.spi       0x00800776        0x1 main.o
-                0x00800776                spi
- .bss.timer1    0x00800777        0x1 main.o
-                0x00800777                timer1
+                0x0080043f      0x335 main.o
+                0x0080043f                weaponMatrix
+ .bss.spi       0x00800774        0x1 main.o
+                0x00800774                spi
+ .bss.timer1    0x00800775        0x1 main.o
+                0x00800775                timer1
  .bss.debugUART
-                0x00800778        0x1 main.o
-                0x00800778                debugUART
+                0x00800776        0x1 main.o
+                0x00800776                debugUART
  *(COMMON)
-                0x00800779                PROVIDE (__bss_end, .)
-                0x00000ec8                __data_load_start = LOADADDR (.data)
-                0x000011fe                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00800777                PROVIDE (__bss_end, .)
+                0x00000e80                __data_load_start = LOADADDR (.data)
+                0x000011b6                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800779        0x0
-                0x00800779                PROVIDE (__noinit_start, .)
+.noinit         0x00800777        0x0
+                0x00800777                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00800779                PROVIDE (__noinit_end, .)
-                0x00800779                _end = .
-                0x00800779                PROVIDE (__heap_start, .)
+                0x00800777                PROVIDE (__noinit_end, .)
+                0x00800777                _end = .
+                0x00800777                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)

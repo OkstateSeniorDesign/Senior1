@@ -9,18 +9,21 @@
 
 class HitMatrix{
 	
-	#define maxPanels 1
+	#define maxPanels 3
 
 	private:
 	SPI spi;
 	const uint8_t numPanels=maxPanels;
 	uint8_t one=1;
-	bool moveRight;
-	uint8_t scrollCounter=0;
+	bool moveRight=false;
+	uint8_t scrollCounter=15;
 	uint8_t multiplexCounter=0;
 	public:
 		HitMatrix(void);
 		void testHitMatrix(void);
+	inline bool wasGoodHit(){
+		return ((scrollCounter>15||scrollCounter<8)?false : true);
+	}
 	inline void moveBar(void){
 	
 		if(moveRight){
@@ -35,10 +38,25 @@ class HitMatrix{
 	};
 	inline void outputMatrix(void){
 		spi.pickASlave(hitIndicatorMatrix);
+				spi.sendSPI( 0b00000000);//Green 3
+				scrollCounter >7 && scrollCounter <16 ? spi.sendSPI( 1<<scrollCounter%8) : spi.sendSPI( 0b00000000);//Green 2
+				spi.sendSPI( 0b00000000);//Green 1
+				scrollCounter >15 && scrollCounter <24 ? spi.sendSPI( 1<<scrollCounter%8) : spi.sendSPI( 0b00000000);//Red 3
+				spi.sendSPI( 0b00000000);//Red   2
+				scrollCounter >=0 && scrollCounter <8 ? spi.sendSPI( 1<<scrollCounter%8) : spi.sendSPI( 0b00000000);//Red 1
+				spi.sendSPI( 0b00000000);//Ground
+				
+		spi.pickASlave(none);
+		/*
+		
+		
+
+				
 		spi.sendSPI(0xFF);
 		spi.sendSPI(0b01010101);
 		spi.sendSPI(0b10101010);
-		spi.pickASlave(none);
+		
+		*/
 		/*
 		spi.pickASlave(hitIndicatorMatrix);
 		//Send Greens
