@@ -26,26 +26,26 @@ void SPI::initMSPIM(){
 }
 void SPI::bitBangAudioSender(bool toBitBang){
 	
-	
+	DDRA|=0b00000111;
 	
 	if(toBitBang>0){
 		
-		pickASlave(audioReset);
+		PORTA&=0b11111110; //reset
 		_delay_us(200000);
-		pickASlave(none);
+		PORTA|=0b00000111;//none
 		_delay_us(200000);
-		pickASlave(audioPlay);
+		PORTA&=0b11111101 ;//play
 		_delay_us(600000);
-		pickASlave(none);
+		PORTA|=0b00000111;//none
 		}
 	else{
-		pickASlave(audioReset);
+		PORTA&=0b11111110 ;//reset
 		_delay_us(200000);
-		pickASlave(none);
+		PORTA|=0b00000111;//none
 		_delay_us(200000);
-		pickASlave(audioNext);
+		PORTA&=0b11111011; //next
 		_delay_us(600000);
-		pickASlave(none);
+		PORTA|=0b00000111;//none
 	}
 
 	

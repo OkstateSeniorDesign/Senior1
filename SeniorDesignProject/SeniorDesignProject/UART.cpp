@@ -45,7 +45,10 @@ void UART::initUART0(void)
 	//Start Coms
 	TX_START();
 	RX_START();
-	//RX_INTEN();
+	RX_INTEN();
+	
+//	UCSR0B&=11111011;
+	//UCSR0C=0b00000110;
 	// Set frame format = 8-N-1
 	UCSR0C = (_DATA << UCSZ00);
 

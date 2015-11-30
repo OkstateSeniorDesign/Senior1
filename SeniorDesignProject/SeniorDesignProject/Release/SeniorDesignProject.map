@@ -11,11 +11,9 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_prologue.o)
                               HitMatrix.o (__prologue_saves__)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_epilogue.o)
-                              NFC.o (__epilogue_restores__)
+                              WeaponMatrix.o (__epilogue_restores__)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_ctors.o) (__tablejump2__)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strncmp.o)
-                              NFC.o (strncmp)
 
 Discarded input sections
 
@@ -25,69 +23,21 @@ Discarded input sections
  .data          0x00000000        0x0 HitMatrix.o
  .bss           0x00000000        0x0 HitMatrix.o
  .text._ZN9HitMatrix13testHitMatrixEv
-                0x00000000      0x108 HitMatrix.o
+                0x00000000      0x128 HitMatrix.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
- .text._Z12readRegisterh
-                0x00000000       0x36 main.o
- .text._Z13writeRegisterhh
-                0x00000000       0x3a main.o
- .text._Z18lookUpYourMomsItemm
-                0x00000000       0x16 main.o
- .text._Z10playFlamesv
-                0x00000000       0x86 main.o
- .text._Z10initTimer2v
-                0x00000000        0x2 main.o
- .bss.uartData  0x00000000        0x1 main.o
- .bss.hitCounter
-                0x00000000        0x1 main.o
+ .text._Z18lookUpYourMomsItemv
+                0x00000000       0xa0 main.o
+ .text._Z16reamAStringForHPPchh
+                0x00000000       0x8c main.o
+ .text._Z10playFlamesh
+                0x00000000       0x24 main.o
  .data.data     0x00000000        0x1 main.o
- .bss.otherCounter
-                0x00000000        0x1 main.o
- .bss.posCounter
-                0x00000000        0x1 main.o
- .data.weaponName
-                0x00000000        0x2 main.o
  .text          0x00000000        0x0 NFC.o
  .data          0x00000000        0x0 NFC.o
  .bss           0x00000000        0x0 NFC.o
- .text._ZN3NFC11spi_readackEv
-                0x00000000       0x98 NFC.o
- .text._ZN3NFC13readspistatusEv
-                0x00000000       0x56 NFC.o
- .text._ZN3NFC11readspidataEPhh
-                0x00000000       0x8e NFC.o
- .text._ZN3NFC15spiwritecommandEPhh
-                0x00000000      0x166 NFC.o
- .text._ZN3NFC19sendCommandCheckAckEPhhj
-                0x00000000      0x23a NFC.o
- .text._ZN3NFC19sendCommandCheckAckEPhhj.constprop.1
-                0x00000000      0x176 NFC.o
- .text._ZN3NFC5beginEv
-                0x00000000       0x32 NFC.o
- .text._ZN3NFC18getFirmwareVersionEv
-                0x00000000       0xdc NFC.o
- .text._ZN3NFC9SAMConfigEv
-                0x00000000       0xa8 NFC.o
- .text._ZN3NFC17authenticateBlockEhmhhPh
-                0x00000000       0xfe NFC.o
- .text._ZN3NFC15readMemoryBlockEhhPh
-                0x00000000      0x120 NFC.o
- .text._ZN3NFC16writeMemoryBlockEhhPh
-                0x00000000      0x116 NFC.o
- .text._ZN3NFC19readPassiveTargetIDEh
-                0x00000000       0xea NFC.o
- .text._ZN3NFC8spiwriteEh
-                0x00000000       0x28 NFC.o
- .text._ZN3NFC7spireadEv
-                0x00000000       0x1a NFC.o
- .bss.pn532_packetbuffer
-                0x00000000       0x40 NFC.o
- .data.pn532response_firmwarevers
-                0x00000000        0x6 NFC.o
- .data.pn532ack
-                0x00000000        0x6 NFC.o
+ .comment       0x00000000       0x31 NFC.o
  .text          0x00000000        0x0 SPI.o
  .data          0x00000000        0x0 SPI.o
  .bss           0x00000000        0x0 SPI.o
@@ -109,6 +59,8 @@ Discarded input sections
  .text          0x00000000        0x0 UART.o
  .data          0x00000000        0x0 UART.o
  .bss           0x00000000        0x0 UART.o
+ .text._ZN4UART7putByteEh
+                0x00000000        0xe UART.o
  .text._ZN4UART7getByteEv
                 0x00000000        0xe UART.o
  .text          0x00000000        0x0 WeaponMatrix.o
@@ -225,11 +177,6 @@ Discarded input sections
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
  .text.libgcc.fixed
                 0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strncmp.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strncmp.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strncmp.o)
- .text.avr-libc
-                0x00000000       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(strncmp.o)
 
 Memory Configuration
 
@@ -357,7 +304,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xe80
+.text           0x00000000     0x10d2
  *(.vectors)
  .vectors       0x00000000       0x8c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.90/gcc/dev/atmega1284p/avr51/crtatmega1284p.o
                 0x00000000                __vector_default
@@ -451,89 +398,85 @@ END GROUP
                 0x000000de                . = ALIGN (0x2)
  *(.text.*)
  .text._ZN9HitMatrixC2Ev
-                0x000000de       0x1e HitMatrix.o
+                0x000000de       0x20 HitMatrix.o
                 0x000000de                _ZN9HitMatrixC1Ev
                 0x000000de                _ZN9HitMatrixC2Ev
+ .text._Z11sendNFCInitv
+                0x000000fe       0x46 main.o
+                0x000000fe                _Z11sendNFCInitv
  .text.startup.main
-                0x000000fc      0x2da main.o
-                0x000000fc                main
+                0x00000144      0x3fc main.o
+                0x00000144                main
  .text.__vector_16
-                0x000003d6      0x120 main.o
-                0x000003d6                __vector_16
+                0x00000540      0x120 main.o
+                0x00000540                __vector_16
  .text.__vector_15
-                0x000004f6      0x14c main.o
-                0x000004f6                __vector_15
+                0x00000660      0x18a main.o
+                0x00000660                __vector_15
  .text.__vector_3
-                0x00000642       0xcc main.o
-                0x00000642                __vector_3
+                0x000007ea       0x34 main.o
+                0x000007ea                __vector_3
  .text.__vector_20
-                0x0000070e       0x72 main.o
-                0x0000070e                __vector_20
+                0x0000081e      0x120 main.o
+                0x0000081e                __vector_20
  .text.startup._GLOBAL__sub_I_debugUART
-                0x00000780       0x24 main.o
- .text._ZN3NFCC2Ev
-                0x000007a4        0x4 NFC.o
-                0x000007a4                _ZN3NFCC2Ev
-                0x000007a4                _ZN3NFCC1Ev
+                0x0000093e       0x1e main.o
  .text._ZN3SPIC2Ev
-                0x000007a8       0x26 SPI.o
-                0x000007a8                _ZN3SPIC2Ev
-                0x000007a8                _ZN3SPIC1Ev
+                0x0000095c       0x26 SPI.o
+                0x0000095c                _ZN3SPIC2Ev
+                0x0000095c                _ZN3SPIC1Ev
  .text._ZN3SPI18bitBangAudioSenderEb
-                0x000007ce       0xd4 SPI.o
-                0x000007ce                _ZN3SPI18bitBangAudioSenderEb
+                0x00000982       0x80 SPI.o
+                0x00000982                _ZN3SPI18bitBangAudioSenderEb
  .text._ZN3SPI7sendSPIEh
-                0x000008a2       0x1a SPI.o
-                0x000008a2                _ZN3SPI7sendSPIEh
+                0x00000a02       0x1a SPI.o
+                0x00000a02                _ZN3SPI7sendSPIEh
  .text._ZN3SPI10pickASlaveE5SLAVE
-                0x000008bc        0xc SPI.o
-                0x000008bc                _ZN3SPI10pickASlaveE5SLAVE
+                0x00000a1c        0xc SPI.o
+                0x00000a1c                _ZN3SPI10pickASlaveE5SLAVE
  .text._ZN6Timer1C2Ev
-                0x000008c8       0x20 Timer1.o
-                0x000008c8                _ZN6Timer1C1Ev
-                0x000008c8                _ZN6Timer1C2Ev
+                0x00000a28       0x20 Timer1.o
+                0x00000a28                _ZN6Timer1C1Ev
+                0x00000a28                _ZN6Timer1C2Ev
  .text._ZN6Timer110initTimer1Ev
-                0x000008e8       0x20 Timer1.o
-                0x000008e8                _ZN6Timer110initTimer1Ev
+                0x00000a48       0x20 Timer1.o
+                0x00000a48                _ZN6Timer110initTimer1Ev
  .text._ZN4UARTC2Ev
-                0x00000908        0x2 UART.o
-                0x00000908                _ZN4UARTC1Ev
-                0x00000908                _ZN4UARTC2Ev
+                0x00000a68        0x2 UART.o
+                0x00000a68                _ZN4UARTC1Ev
+                0x00000a68                _ZN4UARTC2Ev
  .text._ZN4UART9initUART0Ev
-                0x0000090a       0x2a UART.o
-                0x0000090a                _ZN4UART9initUART0Ev
- .text._ZN4UART7putByteEh
-                0x00000934        0xe UART.o
-                0x00000934                _ZN4UART7putByteEh
+                0x00000a6a       0x30 UART.o
+                0x00000a6a                _ZN4UART9initUART0Ev
  .text._ZN12WeaponMatrixC2Ev
-                0x00000942       0x3a WeaponMatrix.o
-                0x00000942                _ZN12WeaponMatrixC1Ev
-                0x00000942                _ZN12WeaponMatrixC2Ev
+                0x00000a9a       0x3a WeaponMatrix.o
+                0x00000a9a                _ZN12WeaponMatrixC1Ev
+                0x00000a9a                _ZN12WeaponMatrixC2Ev
  .text._ZN12WeaponMatrix10initMatrixE3SPI
-                0x0000097c      0x130 WeaponMatrix.o
-                0x0000097c                _ZN12WeaponMatrix10initMatrixE3SPI
+                0x00000ad4      0x130 WeaponMatrix.o
+                0x00000ad4                _ZN12WeaponMatrix10initMatrixE3SPI
  .text._ZN12WeaponMatrix19incStartingLocationEv
-                0x00000aac       0x38 WeaponMatrix.o
-                0x00000aac                _ZN12WeaponMatrix19incStartingLocationEv
+                0x00000c04      0x132 WeaponMatrix.o
+                0x00000c04                _ZN12WeaponMatrix19incStartingLocationEv
  .text._ZN12WeaponMatrix13writeToMatrixEv
-                0x00000ae4       0xca WeaponMatrix.o
-                0x00000ae4                _ZN12WeaponMatrix13writeToMatrixEv
+                0x00000d36       0xca WeaponMatrix.o
+                0x00000d36                _ZN12WeaponMatrix13writeToMatrixEv
  .text._ZN12WeaponMatrix9newStringEPc
-                0x00000bae      0x24e WeaponMatrix.o
-                0x00000bae                _ZN12WeaponMatrix9newStringEPc
+                0x00000e00      0x24e WeaponMatrix.o
+                0x00000e00                _ZN12WeaponMatrix9newStringEPc
  .text.libgcc.prologue
-                0x00000dfc       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_prologue.o)
-                0x00000dfc                __prologue_saves__
+                0x0000104e       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_prologue.o)
+                0x0000104e                __prologue_saves__
  .text.libgcc.prologue
-                0x00000e34       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_epilogue.o)
-                0x00000e34                __epilogue_restores__
- .text.libgcc   0x00000e6a       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
-                0x00000e6a                __tablejump2__
-                0x00000e7c                . = ALIGN (0x2)
+                0x00001086       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_epilogue.o)
+                0x00001086                __epilogue_restores__
+ .text.libgcc   0x000010bc       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+                0x000010bc                __tablejump2__
+                0x000010ce                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000e7c        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
-                0x00000e7c                _exit
-                0x00000e7c                exit
+ .fini9         0x000010ce        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x000010ce                _exit
+                0x000010ce                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -552,11 +495,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000e7c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .fini0         0x000010ce        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000e80                _etext = .
+                0x000010d2                _etext = .
 
-.data           0x00800100      0x336 load address 0x00000e80
+.data           0x00800100      0x3c6 load address 0x000010d2
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -566,48 +509,58 @@ END GROUP
  .rodata        0x00800107      0x299 WeaponMatrix.o
  *(.rodata*)
  .rodata.str1.1
-                0x008003a0       0x95 main.o
+                0x008003a0      0x126 main.o
  *(.gnu.linkonce.d*)
-                0x00800436                . = ALIGN (0x2)
- *fill*         0x00800435        0x1 
-                0x00800436                _edata = .
-                0x00800436                PROVIDE (__data_end, .)
+                0x008004c6                . = ALIGN (0x2)
+                0x008004c6                _edata = .
+                0x008004c6                PROVIDE (__data_end, .)
 
-.bss            0x00800436      0x341
-                0x00800436                PROVIDE (__bss_start, .)
+.bss            0x008004c6      0x379
+                0x008004c6                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.accel     0x00800436        0x1 main.o
-                0x00800436                accel
+ .bss.uartDelayCounter
+                0x008004c6        0x2 main.o
+                0x008004c6                uartDelayCounter
+ .bss.uartData  0x008004c8        0x1 main.o
+                0x008004c8                uartData
+ .bss.accel     0x008004c9        0x1 main.o
+                0x008004c9                accel
+ .bss.weaponHealth
+                0x008004ca        0x1 main.o
+                0x008004ca                weaponHealth
+ .bss.lookUpIndex
+                0x008004cb        0x1 main.o
+                0x008004cb                lookUpIndex
+ .bss.readUart  0x008004cc        0x1 main.o
+                0x008004cc                readUart
  .bss.otherOtherCounter
-                0x00800437        0x1 main.o
-                0x00800437                otherOtherCounter
+                0x008004cd        0x1 main.o
+                0x008004cd                otherOtherCounter
  .bss.hitMatrix
-                0x00800438        0x6 main.o
-                0x00800438                hitMatrix
- .bss.nfc       0x0080043e        0x1 main.o
-                0x0080043e                nfc
+                0x008004ce        0x7 main.o
+                0x008004ce                hitMatrix
  .bss.weaponMatrix
-                0x0080043f      0x335 main.o
-                0x0080043f                weaponMatrix
- .bss.spi       0x00800774        0x1 main.o
-                0x00800774                spi
- .bss.timer1    0x00800775        0x1 main.o
-                0x00800775                timer1
+                0x008004d5      0x367 main.o
+                0x008004d5                weaponMatrix
+ .bss.spi       0x0080083c        0x1 main.o
+                0x0080083c                spi
+ .bss.timer1    0x0080083d        0x1 main.o
+                0x0080083d                timer1
  .bss.debugUART
-                0x00800776        0x1 main.o
-                0x00800776                debugUART
+                0x0080083e        0x1 main.o
+                0x0080083e                debugUART
  *(COMMON)
-                0x00800777                PROVIDE (__bss_end, .)
-                0x00000e80                __data_load_start = LOADADDR (.data)
-                0x000011b6                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0080083f                PROVIDE (__bss_end, .)
+                0x000010d2                __data_load_start = LOADADDR (.data)
+                0x00001498                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800777        0x0
-                0x00800777                PROVIDE (__noinit_start, .)
+.noinit         0x0080083f        0x0
+                0x0080083f                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x00800777                PROVIDE (__noinit_end, .)
-                0x00800777                _end = .
-                0x00800777                PROVIDE (__heap_start, .)
+                0x0080083f                PROVIDE (__noinit_end, .)
+                0x0080083f                _end = .
+                0x0080083f                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -651,7 +604,6 @@ END GROUP
  .comment       0x00000000       0x30 HitMatrix.o
                                  0x31 (size before relaxing)
  .comment       0x00000030       0x31 main.o
- .comment       0x00000030       0x31 NFC.o
  .comment       0x00000030       0x31 SPI.o
  .comment       0x00000030       0x31 Timer1.o
  .comment       0x00000030       0x31 UART.o

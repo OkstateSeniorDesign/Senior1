@@ -8,7 +8,7 @@
 #include "SPI.h"
 
 class WeaponMatrix{
-	#define maxStringLength 15
+	#define maxStringLength 20
 	#define maxPanels 4
 	public:
 	void newString(char * newData);

@@ -55,6 +55,14 @@ void WeaponMatrix::initMatrix(SPI out){
 }
 void WeaponMatrix::incStartingLocation(){
 	counter=(counter>=maxChars*5+numPanels*8)?0:counter+1;
+	if(counter==0){
+				 setCommand(max7219_reg_scanLimit, 0x07);
+				 setCommand(max7219_reg_decodeMode, 0x00);  // using an led matrix (not digits)
+				 setCommand(max7219_reg_shutdown, 0x01);    // not in shutdown mode
+				 setCommand(max7219_reg_displayTest, 0x00); // no display test
+				 setCommand(max7219_reg_intensity, 0x0F);
+	}
+
 }
 
 uint8_t WeaponMatrix::getData(uint16_t i){
